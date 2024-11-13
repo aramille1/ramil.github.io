@@ -1,11 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 @import 'https://fonts.googleapis.com/css?family=Fauna+One';
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 /*---------- Global Style ----------*/
 
 body {
     color: #222;
-    font-family: 'Fauna One', serif;
+    /* font-family: 'Fauna One', serif; */
+    font-family: "Roboto Mono", monospace;
     font-size: 17px;
     line-height: 1.8 !important;
 }
@@ -20,15 +21,19 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 200;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: "Roboto Mono", monospace;
+
+    font-weight: 300;
     color: #111;
     line-height: 1.5em;
     margin-top: 0;
 }
 
 p {
-    font-family: 'Fauna One', serif;
+    /* font-family: 'Fauna One', serif; */
+    font-family: "Roboto Mono", monospace;
+
     font-weight: 300;
     margin-top: 1px;
 }
@@ -36,7 +41,7 @@ p {
 p,
 ul,
 li {
-    color: #666;
+    color: #000;
 }
 
 section {
@@ -51,13 +56,13 @@ section {
 
 a,
 a:link {
-    color: #666;
+    color: #000;
 }
 
 a:hover,
 a:focus,
 a:visited {
-    color: #666;
+    color: #000;
     text-decoration: none;
 }
 
@@ -256,7 +261,8 @@ a:visited {
 }
 
 .nav-item {
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: "Roboto Mono", monospace;
     margin: 10px auto;
     text-align: center;
     color: #222;
@@ -755,7 +761,9 @@ hr{
 
 .portfolio-sorting {
     padding-left: 15px;
-    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    font-family: "Roboto Mono", monospace;
+
 }
 
 /* .portfolio-sorting li a:hover,
@@ -875,4 +883,113 @@ hr{
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+}
+
+/* .navside .col-md-4 {
+  height: 100vh;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} */
+
+/* .main-content{
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.links {
+  position: sticky;
+  top: 80%;
+}
+.links  a{
+  font-size: 12px;
+  color: #000;
+  font-weight: 400;
+}
+
+.logo{
+  position: sticky;
+  top: 50px;
+}
+
+.main {
+  margin-left: 100px;
+}
+
+.main h1{
+  font-size: 25px;
+  padding-bottom: 40px;
+  font-weight: 300;
+}
+
+.wrap{
+  display: flex;
+  margin: 50px;
+}
+
+
+.main-content{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+}
+
+.main-content-item{
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.bookstore{
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.bookstore:hover{
+  cursor: pointer;
+}
+
+.casestudy-titles{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.casestudy-titles h4{
+  color:#000;
+  font-weight: 300;
+}
+
+.main .top-image h3{
+  font-weight: bold;
+  font-size: medium;
+  padding-top: 20px;
+}
+.main .top-image ol{margin-top: 20px;}
+.main .top-image ol, ul li{
+  font-weight: 300;
+}
+.main .top-image h1{
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.user-persona-img{
+  width: 400px;
+  height: 400px;
+}
+
+.shakespearandsons-user-journey{
+  width: 100%;
+}
+
+.w-full{
+  width: 100%;
+}
+
+.shakespeare-proto{
+  margin-left: 50px;
+}
+h1.shakespreare-conclusion{
+  padding-bottom: 10px !important;
 }

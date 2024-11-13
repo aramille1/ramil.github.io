@@ -919,13 +919,13 @@ hr{
 
 .main h1{
   font-size: 25px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   font-weight: 300;
 }
 
 .wrap{
   display: flex;
-  margin: 50px;
+  margin: 20px 50px 20px 50px;
 }
 
 

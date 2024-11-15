@@ -900,12 +900,21 @@ hr{
 
 .links {
   position: sticky;
-  top: 80%;
+  top: 75%;
 }
 .links  a{
   font-size: 12px;
   color: #000;
   font-weight: 400;
+}
+
+.links h3{
+  font-size: 14px;
+  width: 120px;
+  /* font-weight: bold; */
+  font-weight: 400;
+  border-bottom: 1px solid rgba(41, 41, 41, 0.586);
+  padding-bottom: 10px;
 }
 
 .logo{
@@ -919,13 +928,13 @@ hr{
 
 .main h1{
   font-size: 25px;
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   font-weight: 300;
 }
 
 .wrap{
   display: flex;
-  margin: 20px 50px 20px 50px;
+  margin: 70px 50px 50px 50px;
 }
 
 

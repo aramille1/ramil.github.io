@@ -926,9 +926,12 @@ hr{
   margin-left: 100px;
 }
 
+.persona{
+  display: flex;
+}
+
 .main h1{
   font-size: 25px;
-  padding-bottom: 50px;
   font-weight: 300;
 }
 
@@ -983,6 +986,10 @@ hr{
   margin-top: 40px;
 }
 
+.main-content{
+  margin-top: 50px;
+}
+
 .user-persona-img{
   width: 400px;
   height: 400px;
@@ -999,6 +1006,56 @@ hr{
 .shakespeare-proto{
   margin-left: 50px;
 }
+
+.shakespeare{
+  display: flex;
+}
+
 h1.shakespreare-conclusion{
   padding-bottom: 10px !important;
+}
+
+@media (max-width: 768px) {
+  div.main.main-homepage{
+    margin-left: 0;
+  }
+
+  div.main{
+    margin-left: 0;
+  }
+
+  .wrap{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .links{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+
+  .logo{
+    position: static;
+    display: flex;
+    justify-content: center;
+  }
+
+  .casestudy-titles{
+    display: block;
+  }
+  .casestudy-titles h4{
+    font-size: 16px;
+  }
+
+  .persona{
+    display: block;
+  }
+
+  .shakespeare{
+    display: block;
+  }
+
 }
